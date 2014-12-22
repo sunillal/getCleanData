@@ -57,10 +57,15 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-##Processing
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+###Note
+Features are normalized and bounded within [-1,1].
 
+##Processing
+- We are only interested in features which capture the mean and standard devation of a measurement. These correspond to features with mean() or std() in their feature names. All other features have been filtered out.
+- The training and test dataset have been combined
+- Each row in the output text file represents the average of each variable for each activity and each subject.
+
+##Data dictionary
 The final processed dataset has the following structure:
 
 - subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
