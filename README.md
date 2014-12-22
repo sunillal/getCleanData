@@ -14,8 +14,8 @@ The source dataset can be downloaded from:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ##Run
-Extract the UCI HAR Dataset folder and place the run_analysis.R inside it, before executing the script/
+Extract the UCI HAR Dataset folder and place the run_analysis.R inside it, before executing the script.
 
 ##Output
-The run_analysis.R produces tidyData.txt file
+The run_analysis.R produces tidyData.txt file. See CodeBook.md for details about the contents of the output file
 
