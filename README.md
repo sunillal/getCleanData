@@ -19,3 +19,8 @@ Extract the UCI HAR Dataset folder and place the run_analysis.R inside it, befor
 ##Output
 The run_analysis.R produces tidyData.txt file. See CodeBook.md for details about the contents of the output file
 
+##Reference
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+##Disclaimer
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
